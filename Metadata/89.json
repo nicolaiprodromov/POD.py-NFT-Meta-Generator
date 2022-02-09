@@ -1,0 +1,41 @@
+{
+   "Name": "Token 0x0089",
+   "Description": "\n                                    # Token 0x0089\n                                     \n                                    *Token 0x0089* is part of the **Test_NFT** collection of 100 unique NFTs.\n                                    \n                                    ---\n\n                                    ```json\n                                    \"hash\":0xe07587b678581b1ec4c04228215b37b43d08258f8578d909110ad1d7ae4705d2\n                                    ```\n                                    \n                                    ---\n\n                                    **89**  |  TST  |  *LLUSTR*\n                                    ",
+   "Image": "",
+   "External_Url": "",
+   "Attributes": [
+      {
+         "trait_type": "example_type",
+         "value": 86,
+         "display_type": "boost_percentage"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 12,
+         "display_type": "boost_number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 96,
+         "display_type": "number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 64
+      },
+      {
+         "trait_type": "example_type",
+         "value": 1644436278,
+         "display_type": "date"
+      },
+      {
+         "trait_type": "Hat",
+         "value": "Red"
+      },
+      {
+         "trait_type": "Gloves",
+         "value": "Red"
+      }
+   ],
+   "Hash": "0xe07587b678581b1ec4c04228215b37b43d08258f8578d909110ad1d7ae4705d2"
+}

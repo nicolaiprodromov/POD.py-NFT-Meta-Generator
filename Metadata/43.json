@@ -1,0 +1,41 @@
+{
+   "Name": "Token 0x0043",
+   "Description": "\n                                    # Token 0x0043\n                                     \n                                    *Token 0x0043* is part of the **Test_NFT** collection of 100 unique NFTs.\n                                    \n                                    ---\n\n                                    ```json\n                                    \"hash\":0xd3d3c278c6efbf256dce3c48f1044db1e3aa9e77d84d5992024d9c6cf47c4153\n                                    ```\n                                    \n                                    ---\n\n                                    **43**  |  TST  |  *LLUSTR*\n                                    ",
+   "Image": "",
+   "External_Url": "",
+   "Attributes": [
+      {
+         "trait_type": "example_type",
+         "value": 61,
+         "display_type": "boost_percentage"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 66,
+         "display_type": "boost_number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 91,
+         "display_type": "number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 53
+      },
+      {
+         "trait_type": "example_type",
+         "value": 1644436278,
+         "display_type": "date"
+      },
+      {
+         "trait_type": "Gloves",
+         "value": "Green"
+      },
+      {
+         "trait_type": "Hat",
+         "value": "Blue"
+      }
+   ],
+   "Hash": "0xd3d3c278c6efbf256dce3c48f1044db1e3aa9e77d84d5992024d9c6cf47c4153"
+}

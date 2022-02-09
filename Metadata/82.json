@@ -1,0 +1,41 @@
+{
+   "Name": "Token 0x0082",
+   "Description": "\n                                    # Token 0x0082\n                                     \n                                    *Token 0x0082* is part of the **Test_NFT** collection of 100 unique NFTs.\n                                    \n                                    ---\n\n                                    ```json\n                                    \"hash\":0x56947cd33c4235045d80c1c73ab2597beb4b85074ed11d3501c651d7355b319f\n                                    ```\n                                    \n                                    ---\n\n                                    **82**  |  TST  |  *LLUSTR*\n                                    ",
+   "Image": "",
+   "External_Url": "",
+   "Attributes": [
+      {
+         "trait_type": "example_type",
+         "value": 76,
+         "display_type": "boost_percentage"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 32,
+         "display_type": "boost_number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 62,
+         "display_type": "number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 68
+      },
+      {
+         "trait_type": "example_type",
+         "value": 1644436278,
+         "display_type": "date"
+      },
+      {
+         "trait_type": "Gloves",
+         "value": "Blue"
+      },
+      {
+         "trait_type": "Hat",
+         "value": "Blue"
+      }
+   ],
+   "Hash": "0x56947cd33c4235045d80c1c73ab2597beb4b85074ed11d3501c651d7355b319f"
+}

@@ -1,0 +1,41 @@
+{
+   "Name": "Token 0x0061",
+   "Description": "\n                                    # Token 0x0061\n                                     \n                                    *Token 0x0061* is part of the **Test_NFT** collection of 100 unique NFTs.\n                                    \n                                    ---\n\n                                    ```json\n                                    \"hash\":0x0b1656b8cd7e0b57dd1964c641b58ed56faa79e7e8114d755234bc8c866dce46\n                                    ```\n                                    \n                                    ---\n\n                                    **61**  |  TST  |  *LLUSTR*\n                                    ",
+   "Image": "",
+   "External_Url": "",
+   "Attributes": [
+      {
+         "trait_type": "example_type",
+         "value": 73,
+         "display_type": "boost_percentage"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 19,
+         "display_type": "boost_number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 22,
+         "display_type": "number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 92
+      },
+      {
+         "trait_type": "example_type",
+         "value": 1644436278,
+         "display_type": "date"
+      },
+      {
+         "trait_type": "Gloves",
+         "value": "Green"
+      },
+      {
+         "trait_type": "Hat",
+         "value": "Red"
+      }
+   ],
+   "Hash": "0x0b1656b8cd7e0b57dd1964c641b58ed56faa79e7e8114d755234bc8c866dce46"
+}

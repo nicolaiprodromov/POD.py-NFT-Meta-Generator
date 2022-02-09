@@ -1,0 +1,41 @@
+{
+   "Name": "Token 0x0068",
+   "Description": "\n                                    # Token 0x0068\n                                     \n                                    *Token 0x0068* is part of the **Test_NFT** collection of 100 unique NFTs.\n                                    \n                                    ---\n\n                                    ```json\n                                    \"hash\":0x9335245315cd2069a78b0c6c0543c56b51b64a9b8f0ddbea779f6d9fae0d37c4\n                                    ```\n                                    \n                                    ---\n\n                                    **68**  |  TST  |  *LLUSTR*\n                                    ",
+   "Image": "",
+   "External_Url": "",
+   "Attributes": [
+      {
+         "trait_type": "example_type",
+         "value": 0,
+         "display_type": "boost_percentage"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 13,
+         "display_type": "boost_number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 34,
+         "display_type": "number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 57
+      },
+      {
+         "trait_type": "example_type",
+         "value": 1644436278,
+         "display_type": "date"
+      },
+      {
+         "trait_type": "Hat",
+         "value": "Blue"
+      },
+      {
+         "trait_type": "Gloves",
+         "value": "Green"
+      }
+   ],
+   "Hash": "0x9335245315cd2069a78b0c6c0543c56b51b64a9b8f0ddbea779f6d9fae0d37c4"
+}

@@ -1,0 +1,41 @@
+{
+   "Name": "Token 0x0070",
+   "Description": "\n                                    # Token 0x0070\n                                     \n                                    *Token 0x0070* is part of the **Test_NFT** collection of 100 unique NFTs.\n                                    \n                                    ---\n\n                                    ```json\n                                    \"hash\":0x5326db4e27d7c1219082bc1390276cb72ca0b5788420ee3f5b108d2eff80982e\n                                    ```\n                                    \n                                    ---\n\n                                    **70**  |  TST  |  *LLUSTR*\n                                    ",
+   "Image": "",
+   "External_Url": "",
+   "Attributes": [
+      {
+         "trait_type": "example_type",
+         "value": 47,
+         "display_type": "boost_percentage"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 0,
+         "display_type": "boost_number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 45,
+         "display_type": "number"
+      },
+      {
+         "trait_type": "example_type",
+         "value": 46
+      },
+      {
+         "trait_type": "example_type",
+         "value": 1644436278,
+         "display_type": "date"
+      },
+      {
+         "trait_type": "Hat",
+         "value": "Red"
+      },
+      {
+         "trait_type": "Gloves",
+         "value": "Blue"
+      }
+   ],
+   "Hash": "0x5326db4e27d7c1219082bc1390276cb72ca0b5788420ee3f5b108d2eff80982e"
+}
