@@ -1,0 +1,45 @@
+{
+    "ATTRIBUTES": [
+        {
+            "type" : "number_display",
+            "trait_type": "example_type", 
+            "min": 0,
+            "max" : 100,
+            "display_type": "boost_percentage"
+        },
+        {
+            "type" : "number_display",
+            "trait_type": "example_type", 
+            "min": 0,
+            "max" : 100,
+            "display_type": "boost_number"
+        },
+        {
+            "type" : "number_display",
+            "trait_type": "example_type", 
+            "min": 0,
+            "max" : 100,
+            "display_type": "number"
+        },
+        {
+            "type" : "number",
+            "trait_type": "example_type", 
+            "min": 0,
+            "max" : 100
+        },
+        {
+            "type" : "date",
+            "trait_type": "example_type", 
+            "display_type": "date"
+        },
+        {
+            "type" : "object",
+            "trait_type": "example_type"
+        },
+        {
+            "type" : "object",
+            "trait_type": "example_type"
+        }
+
+    ]
+}
