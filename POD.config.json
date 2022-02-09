@@ -1,0 +1,9 @@
+{
+    "Collection Metadata": {
+        "Name" : "Test_NFT",
+        "Symbol" : "TST",
+        "Supply" : 10000,
+        "Unit" : "Token",
+        "Price" : 0.02
+    }
+}
