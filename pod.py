@@ -1,11 +1,16 @@
 # pod.py
+
+
 '''
     version 1.0.0
     POD.py is the very simplified version of the upcoming go implementation of POD.
     You can output the entire metadata structure for an NFT collection with a single command.
     e.g $ python3 pod.go -date:True -obj:obj
 '''
+
+
 ''' Imports'''
+
 import os as _
 import platform
 import sys as __
@@ -16,10 +21,15 @@ from glob import iglob
 from hashlib import sha256
 from time import sleep, time
 from random import choice, randint, uniform, sample
+
+
 # Windows cmd does not support unicode characters (unless Powershell is used)
 if 'Windows' in platform.system(): SP = "※"; SN = "-"; _.system("cls")
 if 'Linux' in platform.system(): SP = "🟩"; SN = "⬛️"; _.system("clear")
+    
+    
 ''' Helpers '''
+
 def open_json(file_, serious = True, msg = "[EXIT]"):
     file_json = {"Empty" : "Empty"}; filepath = _.getcwd() + file_
     try:
@@ -28,6 +38,7 @@ def open_json(file_, serious = True, msg = "[EXIT]"):
         print("[< {f}.json > not found]".format(f=filepath))
         if serious == True:  __.exit(msg)
     return file_json
+
 def write_json(file_, dict_, serious = True, msg = "[EXIT]"):
     payload = False; filepath = _.getcwd() + file_
     try:
@@ -38,11 +49,14 @@ def write_json(file_, dict_, serious = True, msg = "[EXIT]"):
     test = open_json(file_)
     if test == dict_: payload == True
     return payload
+
 def map_value(value, in_min, in_max, out_min, out_max):
         in_ = in_max - in_min; out_ = out_max - out_min
         value_scaled = float(value - in_min) / float(in_)
         return out_min + (value_scaled * out_)
+    
 ''' Sys args '''
+
 def args():
     config_ = open_json("/POD.config")
     arg_dict = {}
@@ -65,13 +79,17 @@ def args():
     SUPPLY = int(arg_dict['-supply'])
     return OFFSET, OBJ_EXTENSION, CLEAN, META_TYPE, DATE_B, VERBOSE, SUPPLY
 OFFSET, OBJ_EXTENSION, CLEAN, META_TYPE, DATE_B, VERBOSE, SUPPLY = args()
-# A small loading bar utility
+
+''' A small loading bar utility '''
+
 def loading(i, limit, new_limit, comment):
     global SP, SN
     slash = ("\\ | / - "*round(limit)).split(" "); ds = " "*30
     print(" [" + comment + "]" + slash[i] + "[" + (SP*round(map_value(i,0,limit,0,new_limit))) + (SN*(new_limit-round(map_value(i,0,limit,0,new_limit)))) + "]" + ds, end = "\r")
     return None
-# Clean directory before proceding
+
+''' Clean directory before proceding '''
+
 def clean():
     global VERBOSE
     filepath = _.getcwd() + "/Metadata/*.json"
@@ -82,7 +100,9 @@ def clean():
     if VERBOSE == True:
         print("")
     return True
-# Application intro and outro
+
+''' Application intro and outro '''
+
 def intro():
     global SUPPLY
     config_ = open_json("/POD.config")
@@ -94,14 +114,18 @@ def intro():
     print(f"  Price per Unit: {config_['Collection Metadata']['Price']}/{config_['Collection Metadata']['Unit']}")
     print(f"  Hash: 0x{HASH}")
     return HASH
+
 def outro(ping):
     if ping == True: ds = (" "*60); print(f" [Success]{ds}\n]")
+        
+        
 ''' 
     Token object
     Create attributes on initialization
     Dump all attributes to dictionary
     Dump dictionary to a json file in /Metadata folder
 '''
+
 class Token():
     def __init__(self, ID):
         self.ID = ID
@@ -111,6 +135,7 @@ class Token():
         self.url = ''
         self.attributes = []
         self.hash = '0x'
+        
     def dump(self):
         payload = {}
         payload['Name'] = self.NAME
@@ -120,10 +145,13 @@ class Token():
         payload['Attributes'] = self.attributes
         payload['Hash'] = self.hash
         return payload
+    
     def dump2_file(self):
         payload = self.dump()
         write_json("/Metadata/"+str(self.ID), payload)
+        
 ''' Main function '''
+
 def GENERATE():
     CHASH = intro()
     sleep(.5)
