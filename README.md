@@ -40,7 +40,7 @@ python3 pod.py -supply:100 -verbose:True -obj:obj -clean:True
 
 > Note: ATM only Opensea type of metadata structure is outputed
 
-Each attribute you will add to the file will at most be something like this:
+Each attribute you will add to the file will at most be something like this: 
 
 ```json
   {
@@ -68,5 +68,7 @@ Objects need to be placed inside */POD/Objects* folder and have to named after t
 If you don't need files to represent objects you can simply create empty files with whatever extension you wish as long as you pass the argument `-obj:{yourextension}`
 
 ---
+
+![green dinosaur egg](https://static.wikia.nocookie.net/arksurvivalevolved_gamepedia/images/1/1b/Bronto_Egg.png/revision/latest/scale-to-width-down/1200?cb=20151005034156)
 
 
