@@ -30,6 +30,8 @@ python3 pod.py -supply:100 -verbose:True -obj:obj -clean:True
 ]
 ```
 
+> Note: All token descriptions are markdown files -> see -> /POD/description_template.md
+
 ---
 
 ## Details 🦎
